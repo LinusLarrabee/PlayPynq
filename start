@@ -1,3 +1,12 @@
 头脑风暴出来一个人脸识别的项目，选用了pynq板
 在准备工作中完成以下事项：
-1. 连接校园网
+1. 连接校园网portal认证
+    a. Mac设置->共享->网络共享->从Wi-Fi共享到pynq
+    b. 将在BUAA-Portal有关的脚本导入到pynq的文件目录下
+    
+  未完成
+    c. vpn连接性
+2.下载python包，特别是tf和cv
+    a. https://blog.csdn.net/xukai871105/article/details/41084949
+    b. https://github.com/samjabrahams/tensorflow-on-raspberry-pi/releases
+    一个是apt安装，一个是找离线安装包，本质上相同之处：曲线救国+可以使用树莓派的相关教程
